@@ -22,7 +22,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import junit.framework.Assert;
 //how are we?
 public class EndtoEndtest extends BaseTest {
-      
+      //checking in git
 	@Test(dataProvider="getdata")
 	public void enedtoendtest(String prod,String mail,String pass) throws InterruptedException {
 		  
